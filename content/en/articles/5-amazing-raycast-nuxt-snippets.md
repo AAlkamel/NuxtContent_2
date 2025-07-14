@@ -15,7 +15,7 @@ image: https://canvas.hrcd.fr/articles/5-raycast-snippets.jpg
 readingTime: "10"
 ---
 
-![preview](/articles/5-raycast-snippets.jpg)
+![preview](/og.png)
 
 In the realm of web development, where efficiency is as valuable as expertise, tools that streamline and simplify our workflow are indispensable. Among these, Raycast snippets emerge as a powerful ally, especially for those working with Nuxt and Vue frameworks. But what exactly are these snippets, and how can they transform your development experience?
 

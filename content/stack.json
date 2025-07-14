@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "name": "Nuxt",
-      "link": "https://nuxt.com/",
-      "icon": "custom:nuxt"
-    },
-    {
-      "name": "Vue",
-      "link": "https://vuejs.org/",
-      "icon": "custom:vue"
-    },
-    {
-      "name": "Nest",
-      "link": "https://nestjs.com/",
-      "icon": "custom:nest"
-    },
-    {
       "name": "TailwindCSS",
       "link": "https://tailwindcss.com/",
       "icon": "custom:tailwind"
