@@ -22,15 +22,11 @@ image: /articles/simplicity-is-the-ultimate-sophistication.jpg
 
 # Build Beautiful UI With 111+ Powerful Components page
 
-# Introduction
+## Introduction
 
 > Nuxt UI harnesses the combined strengths of Reka UI, Tailwind CSS, and Tailwind Variants to offer developers an unparalleled set of tools for creating sophisticated, accessible, and highly performant user interfaces.
 
-<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen="true" style="aspect-ratio: 16/9;" className="rounded-md">
-
-
-
-</iframe>
+:iframe{.rounded-md allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="true" frameBorder="0" height="100%" referrerPolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" style="aspect-ratio: 16/9;" title="YouTube video player" width="100%"}
 
 ## Reka UI
 
@@ -52,11 +48,14 @@ Nuxt UI integrates the latest Tailwind CSS v4, bringing significant improvements
 - **CSS-first configuration**: A reimagined developer experience where you customize and extend the framework directly in CSS instead of a JavaScript configuration file.
 - **Designed for the modern web**: Built on native cascade layers, wide-gamut colors, and including first-class support for modern CSS features like container queries, @starting-style, popovers, and more.
 
-<note ariaLabel="Tailwind CSS v4 upgrade guide" to="https://tailwindcss.com/docs/upgrade-guide#changes-from-v3" target="_blank">
-
+::note
+---
+ariaLabel: Tailwind CSS v4 upgrade guide
+target: _blank
+to: https://tailwindcss.com/docs/upgrade-guide#changes-from-v3
+---
 Learn about all the breaking changes in Tailwind CSS v4.
-
-</note>
+::
 
 ## Tailwind Variants
 
@@ -82,11 +81,13 @@ Nuxt UI offers significantly improved TypeScript integration, providing a superi
   - Leveraging Tailwind Variants for type-safe styling options
   - Customizable types for extended theme configurations
 
-<note ariaLabel="Accordion component with custom slot" to="/components/accordion#with-custom-slot">
-
+::note
+---
+ariaLabel: Accordion component with custom slot
+to: /components/accordion#with-custom-slot
+---
 Check out an example of the Accordion component with auto-completion for props and slots.
-
-</note>
+::
 
 ## Vue compatibility
 
@@ -96,11 +97,9 @@ You can now use Nuxt UI in any Vue project without Nuxt by adding the Vite and V
 - **Theming System**: Full theming support with customizable colors, sizes, variants and more
 - **Developer Experience**: Complete TypeScript support with IntelliSense and auto-completion
 
-<tip ariaLabel="Vue installation guide" to="/getting-started/installation/vue">
-
+::tip{ariaLabel="Vue installation guide" to="/getting-started/installation/vue"}
 Learn how to install and configure Nuxt UI in a Vue project in the **Vue installation guide**.
-
-</tip>
+::
 
 ## Nuxt DevTools Integration
 
@@ -110,23 +109,15 @@ You can play with Nuxt UI components as well as your app components directly fro
 - **Live Preview**: Modify component props and see changes instantly
 - **Code Generation**: Get the corresponding code for your component configurations
 
-<note>
-
+::note
 Install the module to your Nuxt application with one command:
 
 ```bash [Terminal]
 npx nuxt module add compodium
 ```
+::
 
-</note>
-
-<video :controls="true" className="w-full,h-auto,rounded" controls="true" poster="https://res.cloudinary.com/nuxt/video/upload/so_0/v1740751953/nuxt-ui/nuxt-compodium_y2bvqw.jpg">
-<source src="https://res.cloudinary.com/nuxt/video/upload/v1740751953/nuxt-ui/nuxt-compodium_y2bvqw.webm" type="video/webm" />
-
-<source src="https://res.cloudinary.com/nuxt/video/upload/v1740751953/nuxt-ui/nuxt-compodium_y2bvqw.mp4" type="video/mp4" />
-
-<source src="https://res.cloudinary.com/nuxt/video/upload/v1740751953/nuxt-ui/nuxt-compodium_y2bvqw.ogg" type="video/ogg" />
-</video>
+:video{.w-full,h-auto,rounded controls poster="https://res.cloudinary.com/nuxt/video/upload/so_0/v1740751953/nuxt-ui/nuxt-compodium_y2bvqw.jpg"}
 
 ## Migration
 
@@ -140,37 +131,30 @@ Key points to consider:
 
 ## FAQ
 
-<accordion>
-<accordion-item label="Is Nuxt UI compatible with standalone Vue projects?">
+::accordion
+  :::accordion-item{label="Is Nuxt UI compatible with standalone Vue projects?"}
+  Nuxt UI is now compatible with Vue! You can follow the [installation guide](/getting-started/installation/vue) to get started.
+  :::
 
-Nuxt UI is now compatible with Vue! You can follow the [installation guide](/getting-started/installation/vue) to get started.
+  :::accordion-item{label="What about Nuxt UI Pro?"}
+  We've also rebuilt Nuxt UI Pro from scratch as v3 to match Nuxt UI version. The license you bought or will buy is valid for both Nuxt UI Pro v1 and v3, this is a **free update**. You can follow the [installation guide](/getting-started/installation/pro/nuxt) to get started.
+  :::
 
-</accordion-item>
+  :::accordion-item
+  ---
+  label: Will Nuxt UI work with other CSS frameworks like UnoCSS?
+  ---
+  Nuxt UI is currently designed to work exclusively with Tailwind CSS. While there's interest in UnoCSS support, implementing it would require significant changes to the theme structure due to differences in class naming conventions. As a result, we don't have plans to add UnoCSS support.
+  :::
 
-<accordion-item label="What about Nuxt UI Pro?">
+  :::accordion-item{label="How does Nuxt UI handle accessibility?"}
+  Nuxt UI enhances accessibility through Reka UI integration. This provides automatic ARIA attributes, keyboard navigation support, intelligent focus management, and screen reader announcements. While offering a strong foundation, proper implementation and testing in your specific use case remains crucial for full accessibility compliance. For more detailed information, refer to [Reka UI's accessibility documentation](https://reka-ui.com/docs/overview/accessibility).
+  :::
 
-We've also rebuilt Nuxt UI Pro from scratch as v3 to match Nuxt UI version. The license you bought or will buy is valid for both Nuxt UI Pro v1 and v3, this is a **free update**. You can follow the [installation guide](/getting-started/installation/pro/nuxt) to get started.
-
-</accordion-item>
-
-<accordion-item label="Will Nuxt UI work with other CSS frameworks like UnoCSS?">
-
-Nuxt UI is currently designed to work exclusively with Tailwind CSS. While there's interest in UnoCSS support, implementing it would require significant changes to the theme structure due to differences in class naming conventions. As a result, we don't have plans to add UnoCSS support.
-
-</accordion-item>
-
-<accordion-item label="How does Nuxt UI handle accessibility?">
-
-Nuxt UI enhances accessibility through Reka UI integration. This provides automatic ARIA attributes, keyboard navigation support, intelligent focus management, and screen reader announcements. While offering a strong foundation, proper implementation and testing in your specific use case remains crucial for full accessibility compliance. For more detailed information, refer to [Reka UI's accessibility documentation](https://reka-ui.com/docs/overview/accessibility).
-
-</accordion-item>
-
-<accordion-item label="What is the testing approach for Nuxt UI?">
-
-Nuxt UI ensures reliability with 1000+ Vitest tests, covering core functionality and accessibility. This robust testing suite supports the library's stability and serves as a reference for developers.
-
-</accordion-item>
-</accordion>
+  :::accordion-item{label="What is the testing approach for Nuxt UI?"}
+  Nuxt UI ensures reliability with 1000+ Vitest tests, covering core functionality and accessibility. This robust testing suite supports the library's stability and serves as a reference for developers.
+  :::
+::
 
 ---
 
