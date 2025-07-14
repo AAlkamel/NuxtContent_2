@@ -90,7 +90,7 @@ type {clipboard}Store = {
 
 export const use{clipboard}Store = defineStore('{clipboard}', {
   state: (): {clipboard}Store => ({ 
-    count: 0,
+    count:100,
   }), 
   getters: { 
     getCount(): number { 
