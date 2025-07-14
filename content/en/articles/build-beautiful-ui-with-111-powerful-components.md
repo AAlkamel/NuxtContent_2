@@ -16,6 +16,8 @@ sitemap:
   priority: 2
 title: Powerful Components page
 description: Build Beautiful UI With 111+ Powerful Components page
+readingTime: "15"
+image: /articles/simplicity-is-the-ultimate-sophistication.jpg
 ---
 
 # Build Beautiful UI With 111+ Powerful Components page
