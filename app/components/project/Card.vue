@@ -11,9 +11,9 @@ const img = useImage()
 </script>
 
 <template>
+  <!-- :to="project.link" -->
   <NuxtLink
     :aria-label="project.name + ' project link'"
-    :to="project.link"
     target="_blank"
     class="group relative flex cursor-pointer flex-col gap-1 rounded-lg border border-white/10 bg-zinc-900/80 p-1 shadow-2xl shadow-zinc-950/50 backdrop-blur-sm"
   >
