@@ -26,7 +26,7 @@ image: /articles/simplicity-is-the-ultimate-sophistication.jpg
 
 > Nuxt UI harnesses the combined strengths of Reka UI, Tailwind CSS, and Tailwind Variants to offer developers an unparalleled set of tools for creating sophisticated, accessible, and highly performant user interfaces.
 
-:iframe{.rounded-md allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="true" frameBorder="0" height="100%" referrerPolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" style="aspect-ratio: 16/9;" title="YouTube video player" width="100%"}
+:iframe{.rounded-md allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allow-full-screen="true" frame-border="0" height="100%" referrer-policy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" style="aspect-ratio: 16/9;" title="YouTube video player" width="100%"}
 
 ## Reka UI
 
