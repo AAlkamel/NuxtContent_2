@@ -20,7 +20,7 @@ readingTime: "15"
 image: /articles/simplicity-is-the-ultimate-sophistication.jpg
 ---
 
-# Build Beautiful UI With 111+ Powerful Components page
+# Build Beautiful UI With 111+ Powerful Components
 
 ## Introduction
 
