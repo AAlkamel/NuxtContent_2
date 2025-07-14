@@ -15,10 +15,8 @@ defineProps({
     class="flex shrink-0 items-center"
     aria-label="Go back to home page"
   >
-    <UIcon
-      name="custom:maison-hochard"
-      class="size-8"
-    />
+      <img src="/logo-dark.svg" class="h-8 w-auto mb-2 me-6"alt="logo">
+
     <span
       v-if="isText"
       class="ml-1 text-xs font-semibold"
