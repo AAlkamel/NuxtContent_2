@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const { locale: current, setLocaleCookie, locales } = useI18n()
 
 const currentLocale = computed(() => {
@@ -13,21 +13,17 @@ const switchLocalePath = useSwitchLocalePath()
 </script>
 
 <template>
-  <div class="z-99 flex items-center gap-3 rounded-lg border border-white/10 bg-zinc-900/90 px-3 py-1 backdrop-blur-xl">
+  <div class="flex items-center gap-1">
     <ClientOnly>
-      <NuxtLink
+      <UButton
         v-for="locale in locales"
         :key="locale.code"
         class="cursor-pointer select-none"
         :to="switchLocalePath(locale.code)"
+        :color="locale.code === currentLocale?.code ? 'primary' : ''"
       >
-        <span
-          class="font-semibold"
-          :class="locale.code === currentLocale?.code ? 'text-white' : 'text-neutral-500'"
-        >
-          {{ locale.code }}
-        </span>
-      </NuxtLink>
+        {{ locale.code }}
+      </UButton>
       <template #fallback>
         <div class="h-2 w-5" />
       </template>

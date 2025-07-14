@@ -1,7 +1,26 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-
-@import "./animation.css";
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+  --color-dark-blue-50: #ecf1ff;
+--color-dark-blue-100: #dce4ff;
+--color-dark-blue-200: #bfccff;
+--color-dark-blue-300: #99aaff;
+--color-dark-blue-400: #707bff;
+--color-dark-blue-500: #504fff;
+--color-dark-blue-600: #4235d0;
+--color-dark-blue-700: #3523df;
+--color-dark-blue-800: #2e21bc;
+--color-dark-blue-900: #28228d;
+--color-dark-blue-950: #191452;
+}
+:root {
+  --ui-primary: var(--color-dark-blue-800);
+}
+.dark {
+  --ui-primary: var(--color-dark-blue-600);
+}
+/* @import "./animation.css";
 
 @theme {
   --font-newsreader: "Newsreader", serif;
@@ -145,4 +164,4 @@ html, body, #__nuxt, #__layout {
   figcaption {
     @apply text-sm text-neutral-500 dark:text-neutral-400 mt-2;
   }
-}
+} */

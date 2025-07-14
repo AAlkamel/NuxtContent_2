@@ -4,11 +4,11 @@ export default defineAppConfig({
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
+    name: 'API360',
     job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
-    picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+    email: 'email@example.com',
+    phone: '00 00 00 00 00',
+    picture: '/logo-dark.svg',
   },
   socials: {
     github: 'https://github.com/HugoRCD',
@@ -22,47 +22,11 @@ export default defineAppConfig({
     description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD',
     url: 'https://canvas.hrcd.fr',
   },
-  ui: {
-    colors: {
-      primary: 'emerald',
-      neutral: 'neutral',
-    },
-    notifications: {
-      position: 'top-0 bottom-auto',
-    },
-    notification: {
-      progress: {
-        base: 'absolute bottom-0 end-0 start-0 h-0',
-        background: 'bg-transparent dark:bg-transparent',
-      },
-    },
-    button: {
-      slots: {
-        base: 'cursor-pointer',
-      },
-      defaultVariants: {
-        color: 'neutral',
-      },
-    },
-    input: {
-      defaultVariants: {
-        color: 'neutral',
-      },
-    },
-    textarea: {
-      defaultVariants: {
-        color: 'neutral',
-      },
-    },
-    icons: {
-      loading: 'lucide:loader',
-    },
-  },
   link: [
     {
       rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico',
+      type: 'image/png',
+      href: '/favicon.png',
     },
     {
       rel: 'apple-touch-icon',

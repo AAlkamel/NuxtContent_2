@@ -10,7 +10,6 @@
       />
 
       <!-- profile picture -->
-      <HomeProfilePicture />
 
       <div class="z-20 flex flex-col items-center justify-center">
         <!-- title -->
@@ -35,40 +34,39 @@
           </h2>
         </div>
 
-        <SettingsAvailability
+        <!-- <SettingsAvailability
           background
           class="mt-2"
           style="--stagger: 2"
           data-animate
-        />
+        /> -->
 
         <!-- social -->
-        <HomeSocial
+        <!-- <HomeSocial
           style="--stagger: 3"
           data-animate
-        />
+        /> -->
 
         <!-- cta -->
-        <HomeCTA
+        <!-- <HomeCTA
           style="--stagger: 4"
           data-animate
-        />
+        /> -->
 
-        <div
+        <!-- <div
           style="--stagger: 5"
           data-animate
           class="mt-12 flex w-full max-w-3xl flex-col gap-4 lg:mt-16"
         >
-          <!-- projects -->
           <HomeProjects />
-        </div>
+        </div> -->
 
         <Divider class="my-9" />
 
-        <HomeFaq
+        <!-- <HomeFaq
           style="--stagger: 6"
           data-animate
-        />
+        /> -->
       </div>
     </div>
   </section>
