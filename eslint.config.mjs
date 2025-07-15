@@ -1,12 +1,5 @@
-import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
+import withNuxt from './.nuxt/eslint.config.mjs';
 
-export default createConfigForNuxt({
-  features: {
-    stylistic: true,
-  },
-})
-  .override('nuxt/vue/rules', {
-    rules: {
-      'vue/multi-word-component-names': 'off',
-    },
-  })
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+
+export default withNuxt(eslintPluginPrettierRecommended);

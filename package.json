@@ -37,7 +37,10 @@
   "devDependencies": {
     "@nuxt/eslint-config": "1.5.2",
     "automd": "0.4.0",
-    "eslint": "9.31.0"
+    "eslint": "9.31.0",
+    "eslint-config-prettier": "^10.1.3",
+    "eslint-plugin-prettier": "^5.4.0",
+        "prettier": "^3.5.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

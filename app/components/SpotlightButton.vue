@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 defineProps({
   as: {
     type: String,
@@ -16,28 +16,25 @@ defineProps({
     type: Boolean,
     default: false,
   },
-})
+});
 </script>
 
 <template>
   <component
     :is="as"
     :class="`group relative inline-flex items-center overflow-hidden transition ${rounded ? 'rounded-full' : 'rounded-md px-8 py-1'} ${
-      transparent ? '' : 'bg-zinc-800'
+      transparent ? '' : 'dark:bg-dark-blue-950 bg-primary/70'
     }`"
   >
-    <div
-      v-if="animate"
-      class="absolute inset-0 flex items-center [container-type:inline-size]"
-    >
+    <div v-if="animate" class="absolute inset-0 flex items-center [container-type:inline-size]">
       <div
         class="absolute size-[100cqw] animate-spin bg-[conic-gradient(from_0_at_50%_50%,rgba(255,255,255,0.5)_0deg,transparent_60deg,transparent_300deg,rgba(255,255,255,0.5)_360deg)] opacity-0 transition duration-300 group-hover:opacity-100"
       />
     </div>
 
     <div
-      class="absolute inset-0.5 bg-zinc-900 sm:bg-zinc-900/80 sm:backdrop-blur-md"
-      :class="`${transparent ? '' : 'bg-zinc-800'} ${rounded ? 'rounded-full' : 'rounded-md'}`"
+      class="absolute inset-0.5 bg-primary sm:bg-primary/80 sm:backdrop-blur-md"
+      :class="`${transparent ? '' : 'dark:bg-dark-blue-950 bg-primary/70'} ${rounded ? 'rounded-full' : 'rounded-md'}`"
     />
 
     <div

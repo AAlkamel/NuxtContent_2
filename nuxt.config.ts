@@ -8,7 +8,49 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
   ],
-
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' },
+    head: {
+      title: 'API360',
+      meta: [
+        {
+          charset: 'utf-8',
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1',
+        },
+        {
+          name: 'description',
+          content:
+            'API360 is a comprehensive platform providing API solutions and services for businesses and developers.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'API, API360, platform, solutions, services, business, developers, integration, documentation, REST, SaaS, بوابة, واجهات برمجة التطبيقات, تطوير, شركات, حلول, خدمات, برمجيات, تقنية, تقنية المعلومات',
+        },
+        { name: 'author', content: 'API360' },
+        { property: 'og:title', content: 'API360' },
+        {
+          property: 'og:description',
+          content:
+            'API360 is a comprehensive platform providing API solutions and services for businesses and developers.',
+        },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://api360.sa' },
+        { property: 'og:image', content: 'https://api360.sa/api360.jpg' },
+      ],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.png',
+        },
+      ],
+    },
+  },
   imports: {
     presets: [
       {
@@ -94,7 +136,7 @@ export default defineNuxtConfig({
           method: 'post',
           route: '/api/emails/send',
           handler: '~~/server/emails/send.ts',
-        })
+        });
       }
     },
   },
@@ -130,4 +172,4 @@ export default defineNuxtConfig({
   ogImage: {
     zeroRuntime: true,
   },
-})
+});
