@@ -1,6 +1,6 @@
 services:
   canvas:
-    image: ghcr.io/hugorcd/canvas:latest
+    image: ghcr.io/ /canvas:latest
     container_name: canvas
     restart: always
     environment:

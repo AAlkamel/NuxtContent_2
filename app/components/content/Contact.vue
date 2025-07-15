@@ -182,9 +182,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             </UTooltip>
           </dd>
         </div>
-        <div>
-          <MeetingButton />
-        </div>
       </div>
     </div>
   </section>

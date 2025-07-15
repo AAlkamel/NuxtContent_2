@@ -12,7 +12,7 @@ export default defineNuxtSchema({
           title: 'Meeting link',
           description: 'Your meeting link.',
           icon: 'lucide:calendar',
-          default: 'https://schedule.rdv.fr',
+          default: '',
         }),
         available: field({
           type: 'boolean',
@@ -24,8 +24,8 @@ export default defineNuxtSchema({
       },
     }),
     profile: group({
-      title: 'Personal information',
-      description: 'Personal information configuration',
+      title: 'information',
+      description: 'information configuration',
       icon: 'lucide:user',
       fields: {
         name: field({
@@ -47,21 +47,21 @@ export default defineNuxtSchema({
           title: 'Email',
           description: 'Your email.',
           icon: 'lucide:mail',
-          default: 'contact@hrcd.fr',
+          default: 'example@mail.com',
         }),
         phone: field({
           type: 'string',
           title: 'Phone',
           description: 'Your phone.',
           icon: 'lucide:phone',
-          default: '(+33) 6 21 56 22 18',
+          default: '000 00 00 00 00',
         }),
         picture: field({
           type: 'string',
           title: 'Picture',
           description: 'Your picture.',
           icon: 'lucide:image',
-          default: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+          default: '',
         }),
       },
     }),

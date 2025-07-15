@@ -15,7 +15,11 @@ defineProps({
     class="flex shrink-0 items-center"
     aria-label="Go back to home page"
   >
-      <img src="/logo-dark.svg" class="h-8 w-auto mb-2 me-6"alt="logo">
+    <img
+      src="/logo-dark.svg"
+      class="h-8 w-auto mb-2 me-6"
+      alt="logo"
+    >
 
     <span
       v-if="isText"

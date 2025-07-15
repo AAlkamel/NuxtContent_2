@@ -3,11 +3,11 @@
 <p align="center">
     <a aria-label="Hugo's Website" href="https://hrcd.fr">
         <img alt="" src="https://img.shields.io/badge/Website-hrcd.fr-blue?style=for-the-badge&labelColor=000000&logo=google-chrome&logoColor=white">
-  <a aria-label="License" href="https://github.com/hugorcd/canvas/blob/main/LICENSE">
+  <a aria-label="License" href="https://github.com/ /canvas/blob/main/LICENSE">
     <img alt="" src="https://img.shields.io/npm/l/vue.svg?style=for-the-badge&labelColor=000000&color=blue">
     </a>
-  <a aria-label="Follow Hugo on Twitter" href="https://twitter.com/HugoRCD__">
-    <img alt="" src="https://img.shields.io/twitter/follow/HugoRCD__.svg?style=for-the-badge&labelColor=000000&logo=twitter&label=Follow%20Hugo&logoWidth=20&logoColor=white">
+  <a aria-label="Follow Hugo on Twitter" href="https://twitter.com/ __">
+    <img alt="" src="https://img.shields.io/twitter/follow/ __.svg?style=for-the-badge&labelColor=000000&logo=twitter&label=Follow%20Hugo&logoWidth=20&logoColor=white">
   </a>
 </p>
 
@@ -36,7 +36,7 @@ You can see a live demo at [canvas.hrcd.fr](https://canvas.hrcd.fr/).
 
 1. Clone this repository if you have access or download it from the store
 ```bash
-git clone git@github.com:HugoRCD/canvas.git
+git clone git@github.com: /canvas.git
 ```
 
 2. Install dependencies
@@ -81,7 +81,7 @@ For further details on this process and the suitable solutions for serverless de
 
 #### Vercel deployment do not need any extra configuration.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHugoRCD%2Fcanvas&env=NUXT_PRIVATE_RESEND_API_KEY,NUXT_PUBLIC_SITE_URL&envDescription=You%20will%20require%20an%20API%20key%20for%20Resend%20and%20Nuxt%20Studio%2C%20but%20it%20is%20not%20essential%20for%20the%20portfolio%20to%20work.%20Simply%20add%20%22test%2C%22%20for%20example%2C%20and%20edit%20the%20variable%20later.&project-name=canvas-portfolio&repository-name=canvas-portfolio&demo-title=Canvas&demo-url=canvas.hrcd.fr&demo-image=https%3A%2F%2Fcanvas.hrcd.fr%2Fog.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F %2Fcanvas&env=NUXT_PRIVATE_RESEND_API_KEY,NUXT_PUBLIC_SITE_URL&envDescription=You%20will%20require%20an%20API%20key%20for%20Resend%20and%20Nuxt%20Studio%2C%20but%20it%20is%20not%20essential%20for%20the%20portfolio%20to%20work.%20Simply%20add%20%22test%2C%22%20for%20example%2C%20and%20edit%20the%20variable%20later.&project-name=canvas-portfolio&repository-name=canvas-portfolio&demo-title=Canvas&demo-url=canvas.hrcd.fr&demo-image=https%3A%2F%2Fcanvas.hrcd.fr%2Fog.png)
 
 ---
 
@@ -97,7 +97,7 @@ Check out the [official Nuxthub documentation](https://hub.nuxt.com/docs/getting
 
 NuxtHub deployment do not need any extra configuration.
 
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=HugoRCD/canvas-nuxthub)
+[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo= /canvas-nuxthub)
 
 ---
 
@@ -110,7 +110,7 @@ This workflow not only builds the official Canvas image but also provides a stan
 **To pull the latest Docker image:**
 
 ```bash
-docker pull ghcr.io/hugorcd/canvas:latest
+docker pull ghcr.io/ /canvas:latest
 ```
 
 You can also use Docker Compose for a quick deployment. A community-provided [docker-compose.community.yml](docker-compose.community.yml) file is available and can be used with platforms like Coolify for one-click deployments.
@@ -151,7 +151,7 @@ To set it up, follow these steps:
 - change the `from` key in the `sendEmail` route in the `server/api/` folder, you can customize everything you want in this route
 - That's it, you're good to go!
 
-<!-- automd:fetch url="gh:hugorcd/markdown/main/src/contributions.md" -->
+<!-- automd:fetch url="gh: /markdown/main/src/contributions.md" -->
 
 ## Contributing
 To start contributing, you can follow these steps:
@@ -162,7 +162,7 @@ To start contributing, you can follow these steps:
 4. Make changes following the local development steps.
 5. Commit your changes following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 6. If your changes affect the code, run tests using `bun run test`.
-7. Create a pull request following the [Pull Request Template](https://github.com/HugoRCD/markdown/blob/main/src/pull_request_template.md).
+7. Create a pull request following the [Pull Request Template](https://github.com/ /markdown/blob/main/src/pull_request_template.md).
    - To be merged, the pull request must pass the tests/workflow and have at least one approval.
    - If your changes affect the documentation, make sure to update it.
    - If your changes affect the code, make sure to update the tests.
@@ -171,7 +171,7 @@ To start contributing, you can follow these steps:
 
 <!-- /automd -->
 
-<!-- automd:fetch url="gh:hugorcd/markdown/main/src/local_development_dev.md" -->
+<!-- automd:fetch url="gh: /markdown/main/src/local_development_dev.md" -->
 
 <details>
   <summary>Local development</summary>
@@ -187,13 +187,13 @@ To start contributing, you can follow these steps:
 
 <!-- /automd -->
 
-<!-- automd:fetch url="gh:hugorcd/markdown/main/src/sponsors.md" -->
+<!-- automd:fetch url="gh: /markdown/main/src/sponsors.md" -->
 
 ## Sponsors
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/hugorcd/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/hugorcd/static/sponsors.svg' alt="HugoRCD sponsors" />
+  <a href="https://cdn.jsdelivr.net/gh/ /static/sponsors.svg">
+    <img src='https://cdn.jsdelivr.net/gh/ /static/sponsors.svg' alt="  sponsors" />
   </a>
 </p>
 
@@ -201,13 +201,13 @@ To start contributing, you can follow these steps:
 
 ## Community
 
-<!-- automd:contributors license=Apache author=HugoRCD github="hugorcd/canvas" -->
+<!-- automd:contributors license=Apache author=  github=" /canvas" -->
 
-Published under the [APACHE](https://github.com/hugorcd/canvas/blob/main/LICENSE) license.
-Made by [@HugoRCD](https://github.com/HugoRCD) and [community](https://github.com/hugorcd/canvas/graphs/contributors) 💛
+Published under the [APACHE](https://github.com/ /canvas/blob/main/LICENSE) license.
+Made by [@ ](https://github.com/ ) and [community](https://github.com/ /canvas/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/hugorcd/canvas/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=hugorcd/canvas" />
+<a href="https://github.com/ /canvas/graphs/contributors">
+<img src="https://contrib.rocks/image?repo= /canvas" />
 </a>
 
 <!-- /automd -->

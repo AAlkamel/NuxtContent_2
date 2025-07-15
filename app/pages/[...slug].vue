@@ -34,7 +34,7 @@ defineShortcuts({
 <template>
   <div v-if="page">
     <FolioMeta
-      :page
+      :page="page"
       :is-writing="route.path.includes('/articles/')"
     />
     <ContentRenderer
